@@ -29,10 +29,11 @@ Both models were trained using GridSearchCV for hyperparameter tuning. Performan
 
 ### Results
 
-Model | NIR ($) | IRR | Compared to Benchmark
-Starbucks Benchmark | 189.45 | 0.0188 | Baseline
-Logistic Regression | 284.75 | 0.0201 | +55% NIR, +7% IRR
-Random Forest | 238.45 | 0.0188 | +26% NIR, same IRR
+| Model                    | NIR ($) | IRR    | Compared to Benchmark |
+|---------------------------|---------|--------|------------------------|
+| Starbucks Benchmark       | 189.45  | 0.0188 | Baseline               |
+| Logistic Regression       | 284.75  | 0.0201 | +55% NIR, +7% IRR      |
+| Random Forest             | 238.45  | 0.0188 | +26% NIR, same IRR     |
 
 Logistic Regression significantly outperformed both the benchmark and the Random Forest model in both NIR and IRR
 The results from both models are also statistically different from zero, suggesting certainty about any material impact with 95% confidence level.
